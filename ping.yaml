@@ -1,0 +1,6 @@
+---
+- name: This is a ping example
+  hosts: nodes # This value is taken from the inventory /etc/ansible/hosts
+  tasks:
+    - name:
+      ansible.builtin.ping:
