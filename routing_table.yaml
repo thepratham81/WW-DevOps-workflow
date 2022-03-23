@@ -1,0 +1,7 @@
+---
+- name: routing table
+  hosts: nodes # This value is taken from the inventory /etc/ansible/hosts
+  tasks:
+   - name:
+     ansible.builtin.shell:
+       cmd: ip route
