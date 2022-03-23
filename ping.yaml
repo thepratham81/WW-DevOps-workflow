@@ -1,5 +1,5 @@
 ---
-- name: This is a ping example
+- name: ping
   hosts: nodes # This value is taken from the inventory /etc/ansible/hosts
   tasks:
     - name:
